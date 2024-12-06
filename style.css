@@ -1,0 +1,21 @@
+/* CSS Cơ Bản */
+p {
+    color: red; /* Màu đỏ cho tất cả các đoạn văn (thẻ <p>) */
+  }
+  
+  .note {
+    font-size: 20px; /* Font-size 20px cho đoạn văn có class="note" */
+  }
+  
+  #id-selector-demo {
+    color: green; /* Màu xanh lá cây cho đoạn văn có id="id-selector-demo" */
+  }
+  
+  p[value="4"] {
+    color: blue; /* Màu xanh dương cho đoạn văn có thuộc tính value="4" */
+  }
+  
+  * {
+    text-align: center; /* Canh giữa cho tất cả các phần tử */
+  }
+  
